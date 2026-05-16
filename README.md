@@ -28,4 +28,10 @@ Built while learning LabVIEW data handling and front panel interaction. The same
 
 ## Screenshots
 
-Screenshots coming soon.
+### Front Panel
+
+![Front Panel](docs/screenshots/front_panel.png)
+
+### Block Diagram
+
+![Block Diagram](docs/screenshots/block_diagram.png)
