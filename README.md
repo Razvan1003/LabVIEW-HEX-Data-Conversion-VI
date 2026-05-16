@@ -1,14 +1,35 @@
 # LabVIEW HEX Data Conversion VI
 
-Small NI LabVIEW utility for handling data and displaying it in hexadecimal format.
+A small NI LabVIEW utility that takes input data from the front panel and displays it in hexadecimal format. The VI is focused on data representation, input/output handling and basic debugging/validation workflows in LabVIEW.
 
-The project contains a LabVIEW VI named `HEX.vi`. It is intended as an educational/demo project for understanding data representation, basic input/output handling, hexadecimal display and simple validation/debugging workflows in LabVIEW.
+## What It Does
 
-## Overview
+- Accepts input through LabVIEW front panel controls
+- Converts and displays text/data values in hexadecimal format
+- Shows text length values and a checksum field
+- Displays an Intel HEX-style output area
+- Can be used as a small utility for testing, debugging or understanding data representation
 
-`HEX.vi` provides a simple front-panel interface for working with hexadecimal data representation. The VI handles input data, converts or represents the data in hexadecimal format and displays the result through the LabVIEW front panel.
+## Screenshots
 
-This type of VI can be useful as a small learning utility when testing data conversion behavior, debugging values or understanding how information can be represented in hexadecimal form.
+### Front Panel
+
+![Front Panel](docs/screenshots/front_panel.png)
+
+### Block Diagram
+
+![Block Diagram](docs/screenshots/block_diagram.png)
+
+## How To Run
+
+1. Open NI LabVIEW.
+2. Open `src/HEX.vi`.
+3. Run the VI and provide input values through the front panel controls.
+4. Observe the hexadecimal output and related fields.
+
+## Requirements
+
+- NI LabVIEW
 
 ## Technologies Used
 
@@ -16,6 +37,7 @@ This type of VI can be useful as a small learning utility when testing data conv
 - LabVIEW Virtual Instrument (`.vi`)
 - hexadecimal data representation
 - basic input/output handling
+- simple checksum/data validation logic
 
 ## Repository Structure
 
@@ -27,61 +49,28 @@ LabVIEW-HEX-Data-Conversion-VI/
 │   └── HEX.vi
 └── docs/
     └── screenshots/
-        ├── README.md
         ├── front_panel.png
         └── block_diagram.png
 ```
 
-Current repository contents:
-
-- `src/HEX.vi` - main LabVIEW VI
-- `docs/screenshots/README.md` - notes for adding screenshots
-
-The screenshot files are placeholders in the documentation. Add the actual exported images as:
-
-- `docs/screenshots/front_panel.png`
-- `docs/screenshots/block_diagram.png`
-
-## Screenshots
-
-### Front Panel
-
-Add a screenshot here after exporting the LabVIEW front panel:
-
-```text
-docs/screenshots/front_panel.png
-```
-
-### Block Diagram
-
-Add a screenshot here after exporting the LabVIEW block diagram:
-
-```text
-docs/screenshots/block_diagram.png
-```
-
-## How To Use
-
-1. Open NI LabVIEW.
-2. Open `src/HEX.vi`.
-3. Run the VI from the LabVIEW front panel.
-4. Provide input data through the available controls.
-5. Observe the hexadecimal output or representation on the front panel.
-
 ## What I Learned
 
 - How to create and organize a simple LabVIEW VI.
-- How to handle input and output values in a LabVIEW front panel.
-- How hexadecimal representation can be used to inspect or debug data.
+- How to handle input and output values through a LabVIEW front panel.
+- How hexadecimal representation can help inspect or debug data.
 - How to structure a small LabVIEW project for a public engineering portfolio.
+- How LabVIEW visual programming can support data-handling and validation tasks.
 
 ## Possible Improvements
 
-- Add front panel and block diagram screenshots.
-- Add a short usage example with sample input and output.
-- Add comments/labels inside the block diagram for easier review.
-- Add support for more input formats if needed.
+- Add a short usage example with sample input and expected output.
+- Add clearer labels or comments inside the block diagram.
 - Add validation cases that show expected hexadecimal results.
+- Expand the VI to support more input formats if needed.
+
+## Context
+
+Developed while learning LabVIEW data handling and debugging workflows. These LabVIEW fundamentals are related to skills I later applied during my internship at Benchmark Electronics, where I built a driver for the QL TTI 355 programmable power supply.
 
 ## Notes
 

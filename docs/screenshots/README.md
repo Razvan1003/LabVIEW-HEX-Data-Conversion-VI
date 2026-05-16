@@ -1,10 +1,8 @@
 # Screenshots
 
-Place exported LabVIEW screenshots in this folder.
+This folder contains exported screenshots from the LabVIEW VI:
 
-Recommended files:
-
-- `front_panel.png` - screenshot of the VI front panel
-- `block_diagram.png` - screenshot of the VI block diagram
+- `front_panel.png` - VI front panel
+- `block_diagram.png` - VI block diagram
 
 Do not include confidential data or screenshots from company systems.
