@@ -39,20 +39,6 @@ A small NI LabVIEW utility that takes input data from the front panel and displa
 - basic input/output handling
 - simple checksum/data validation logic
 
-## Repository Structure
-
-```text
-LabVIEW-HEX-Data-Conversion-VI/
-├── README.md
-├── .gitignore
-├── src/
-│   └── HEX.vi
-└── docs/
-    └── screenshots/
-        ├── front_panel.png
-        └── block_diagram.png
-```
-
 ## What I Learned
 
 - How to create and organize a simple LabVIEW VI.
