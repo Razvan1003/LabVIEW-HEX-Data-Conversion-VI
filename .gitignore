@@ -1,0 +1,34 @@
+# LabVIEW autosave and backup files
+*.autosave
+*.tmp
+*.bak
+*.backup
+
+# LabVIEW compiled object cache and generated folders
+*.compiled
+*.aliases
+*.lvlps
+*.lvbitx
+*.lvlibp
+
+# Build outputs
+build/
+dist/
+output/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Local project/user settings
+*.user
+*.suo
+*.log
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
